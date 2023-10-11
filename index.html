@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>新烨数码产品资料</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <link rel="icon" href="./image/logo.png">
+
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: '新烨数码产品资料',
+      //repo: '/',
+      coverpage: true,
+      loadNavbar: true,
+
+      /*
+      alias: {
+      '/esp32/': '/_sidebar.md',
+      '/stm32/': '/_sidebar.md',
+      },
+      */
+
+      loadSidebar: true,
+      subMaxLevel: 2,
+      search: {
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      paths: [], // or 'auto'
+      placeholder: '在这里搜索',
+      noData:'没有结果了',
+      depth: 2,
+      },
+      
+
+      'flexible-alerts': {
+      note: {
+        label: "Hinweis"
+      },
+      tip: {
+        label: "提示"
+      },
+      warning: {
+        label: "Warnung"
+      },
+      attention: {
+        label: "Achtung"
+      }
+      }
+      
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>  <!-- 警告插件-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> <!--emoji-->
+</body>
+</html>
