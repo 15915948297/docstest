@@ -1,10 +1,10 @@
 ![logo](./image/logo.png)
 
-> 资料测试网站。
+> 😶资料测试网站😶
 
-- 12345678910
-- 1111111
-- 0202022gtgtgt
+- 0123456789
+- ABCDEFGHIZKLMNOPQRSTUVWXYZ
+- 一二三四五六七八九十
 
-[新烨数码](https://www.xinyeshuma.com/)
-[人工智能](https://baidu.com)
+[新烨数码](https://www.xinyeshuma.com)
+[人工智能](https://lemonmoon.cc)
